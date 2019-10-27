@@ -7,7 +7,9 @@ leds = Leds()
 sound = Sound()
 button= Button
 
-print("You do it for her")
+
+
+print("You do it for cheese!")
 
 while True:
   if button.enter:
