@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+from ev3dev2.sound import Sound
+from ev3dev2.button import  Button
+
+print("Sounds is running!")
+s = Sound()
+btn = Button()
+
+while not btn.any() : # While no (not any) button is pressed.
+  s.beep()
+
+

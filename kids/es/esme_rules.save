@@ -1,0 +1,6 @@
+sme_rulesbtn.wait_for_bump('left')
+sound.beepbeep()
+btn.wait_for_pressed(['up', 'down'])
+sound.beepbeep()
+btn.wait_for_released('right')
+sound.beepbeep()

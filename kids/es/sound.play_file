@@ -1,0 +1,10 @@
+#play a small song
+sound.play_song((
+('D4','e3'),
+('D4','e3'),
+('D4','e3'),
+('G4','h'),
+('D5','h'),
+))
+
+

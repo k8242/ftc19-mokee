@@ -1,0 +1,7 @@
+it_for_bump('left')
+sound.beepbeep()
+btn.wait_for_pressed(['up', 'down'])
+sound.guacamole()
+btn.wait_for_released('right')
+sound.guacamole()
+czb

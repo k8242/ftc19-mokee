@@ -1,0 +1,12 @@
+btn.wait_for_bump('left')
+sound.beep()
+btn.wait_for_pressed(['up', 'down'])
+sound.beep()
+btn.wait_for_released('right')
+sound.beep()
+
+
+
+
+
+
